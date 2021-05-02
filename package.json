@@ -1,0 +1,29 @@
+{
+  "name": "fp-ag-ts",
+  "version": "0.0.1",
+  "description": "Functional attribute grammar semantics",
+  "keywords": [
+    "fp",
+    "functional",
+    "attribute",
+    "grammar"
+  ],
+  "license": "MIT",
+  "author": "Yogesh Sajanikar",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc --build tsconfig.src.json",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/node": "^15.0.1",
+    "fp-ts": "^2.10.4",
+    "jest": "26.6.3",
+    "typescript": "^4.2.4",
+    "eslint": "^7.25.0",
+    "@typescript-eslint/parser": "^4.22.0",
+    "@typescript-eslint/eslint-plugin": "^4.22.0",
+    "prettier": "^2.2.1",
+    "eslint-config-prettier": "^8.3.0"
+  }
+}
